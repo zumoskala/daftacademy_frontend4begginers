@@ -119,15 +119,16 @@
                             <p class="concerts__date">20.12.2018</p>
                             <p class="concerts__location">Lublin, klub XXX</p>
                         </div>
-                        <button id="b1c" class="button" >Buy a ticket</button>
+                        <button id="b1c" class="button" onclick="myFunction()" >Buy a ticket</button>
                             
     <script>
-    function hide()
-    {
-    document.getElementById('b1c').style.visibility="hidden";
-    }    
-    const b1c = document.querySelector('#b1c');
-    b1c.onclick = hide(); 
+    function myFunction() {
+    var x = document.getElementById("b1c");
+    if (x.style.display === "none") {
+       x.style.display = "block";
+    } else {
+    x.style.display = "none";
+    }
     }
     </script>
                     </header>
