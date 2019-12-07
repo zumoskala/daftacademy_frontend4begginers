@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>6BM Band Official Website</title>
+    <title>6BMa Band Official Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css" />
@@ -119,14 +119,14 @@
                             <p class="concerts__date">20.12.2018</p>
                             <p class="concerts__location">Lublin, klub XXX</p>
                         </div>
-                        <button id="b1c" class="button" onclick="hide('b1c')" >Buy a ticket</button>
+                        <button id="b1c" class="button" onclick="hide('b1c', 'h1')" >Buy a ticket</button>
                         <p hidden id="h1" class="concerts__date">Have fun!</p>
                             
     <script>
-    function hide(y) {
+    function hide(y,z) {
     var x = document.getElementById(y);
     x.style.display = "none";
-    "h1".style.display = "block";
+    document.getElementById(z).hidden=false;
     }
     </script>
                     </header>
