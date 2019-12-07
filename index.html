@@ -122,8 +122,12 @@
                         <button id="b1c" class="button" >Buy a ticket</button>
                             
     <script>
+    function hide()
+    {
+    document.getElementById('b1c').style.visibility="hidden";
+    }    
     const b1c = document.querySelector('#b1c');
-    b1c.onclick = "this.style.visibility = 'hidden'"; 
+    b1c.onclick = hide(); 
     }
     </script>
                     </header>
