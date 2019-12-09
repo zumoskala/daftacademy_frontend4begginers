@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
         
 </head>
@@ -19,8 +18,9 @@
         <nav class="page-navigation">
             
             
-            <div class="hamburger">
-                <i class="fas fa-bars menu"></i>
+            <div class="hamburger menu">
+                <img src="./images/burger.png"/>
+ 
             </div>
             
             
@@ -52,7 +52,7 @@
         <script>
             $document.ready(function(){
                 $('.menu').click(function(){
-                    $('ul').toggleClass('active');
+                    $ul.toggleClass('active');
                 })
         
         })
