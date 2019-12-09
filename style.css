@@ -434,6 +434,7 @@ SEKCJA "CONTACT"
 
     .page-navigation__items {
         text-align: center;
+        display: none;
     }
     
         
