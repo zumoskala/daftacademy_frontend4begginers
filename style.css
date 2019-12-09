@@ -434,7 +434,6 @@ SEKCJA "CONTACT"
 
     .page-navigation__items {
         text-align: center;
-        display: none;
     }
     
         
@@ -442,7 +441,7 @@ SEKCJA "CONTACT"
         width: 100%;
         padding: 20px 20px;
         background: #25072E;
-        text-align: right;
+        text-align: left;
         box-sizing: border-box;
         color: #fff;
         font-size: 22px;
